@@ -13,22 +13,23 @@ body {
 
 
 .count {
-	width: 95vw;
+	width: 95%;
+	height: 100%;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .countTime {
-	width: 320px;
-	height: 280px;
+	width: 300px;
+	height: 260px;
 	text-align: center;
 	margin: 4em auto;
 }
 
 .title {
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-weight: bold;
 }
 
@@ -59,8 +60,8 @@ body {
 
 .value {
 	background: #363795;
-	width: 220px;
-	height: 100px;
+	width: 200px;
+	height: 90px;
 	font-size: 1.8em;
 	margin: 1em 0.7em 0.4em 0.7em;
 	color: #fff;
@@ -79,7 +80,7 @@ body {
 }
 
 .initiators {
-	width: 150px;
+	width: 140px;
 	height: 65px;
 	margin: 1em 0.7em 0 0.7em;
 	font-size: 1.1em;
