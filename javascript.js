@@ -38,7 +38,7 @@ window.onload = function() {
   
     if (duration > 0) {
       getRemainTime(parseInt(duration - 1));
-      selectTime(valueDay,valueHour,valueMin,valueSeg)
+      selectTime("0",valueHour,valueMin,valueSeg)
   
       start.style.display = 'none';
       restart.style.display = 'initial';
