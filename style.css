@@ -1,0 +1,107 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: #c31432;
+	background: -webkit-linear-gradient(to right, #240b36, #c31432);
+	background: linear-gradient(to right, #240b36, #c31432);
+	font-size: 15px;
+}
+
+
+.count {
+	width: 95vw;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.countTime {
+	width: 320px;
+	height: 280px;
+	text-align: center;
+	margin: 4em auto;
+}
+
+.title {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+.number {
+	background: #0f0c29;
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+	width: 100%;
+	height: 100%;
+	line-height: 265px;
+	font-size: 9em;
+	color: #fff;
+	text-shadow: 3px 2px grey;
+	box-shadow: 3px 2px 15px #111;
+	margin: 0.1em 0 0 0;
+	border-radius: 7px;
+}
+
+
+
+.values {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.value {
+	background: #363795;
+	width: 220px;
+	height: 100px;
+	font-size: 1.8em;
+	margin: 1em 0.7em 0.4em 0.7em;
+	color: #fff;
+	border-style: none;
+	outline: none;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 5px 7px 7px #111;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.countInitiators {
+	display: flex;
+	justify-content: center;
+}
+
+.initiators {
+	width: 150px;
+	height: 65px;
+	margin: 1em 0.7em 0 0.7em;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #fff;
+	background: #f70;
+	box-shadow: 0px 3px 7px #f70;
+	border-style: none;
+	border-radius: 5px;
+	border-bottom: 4px solid #f60;
+
+}
+
+.initiators:active {
+	box-shadow: 3px 2px 13px #f70;
+}
+
+
+
+
+
+
+
+
+
