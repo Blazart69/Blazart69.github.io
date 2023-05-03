@@ -13,7 +13,7 @@ body {
 
 
 .count {
-	width: 95%;
+	width: 100vh;
 	height: 100%;
 	margin: auto;
 	display: flex;
